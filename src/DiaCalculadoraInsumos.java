@@ -1,6 +1,5 @@
 import org.w3c.dom.ls.LSOutput;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class DiaCalculadoraInsumos {
@@ -29,6 +28,9 @@ public class DiaCalculadoraInsumos {
         double costoTotal = pesoTotal * 0.15;
 
         System.out.println("Para preparar " + postre + " con un peso de: " + pesoTotal + " gramos.\n Y el costo será de: " + costoTotal);
+
+        sc.close();
     }
+
 }
 
